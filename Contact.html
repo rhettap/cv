@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact ME </title>
+</head>
+<body>
+<h3>My Contact Details:</h3>
+<p> Phone: 769-231-6780</p>
+<p> Email: palmore.rhett@gmail.com</p>
+
+<hr>
+<h2>Contact Me:</h2>
+
+<form action="mailto:palmore.rhett@gmail.com" method="post" enctype="text/plain">
+    <!--Creates a from that users can fill out; action is what happens when user click "submit";
+     method = post means it will transfer fields typed into form to email-->
+    <label for="">Name:</label> <!--First Label inside the form-->
+    <input type="text" name="yourName"><br> <!--line break --> <!--Input allows users to input information-->
+    <label for="">Email:</label>
+    <input type="email" name="yourEmail"><br>
+    <label for="">Your Message:</label><br>
+    <textarea name="name" rows="10" cols="30"> </textarea><br> <!--Creates a text box for users to type in -->
+    <input type="submit" name="yourMessage"> <!-- submit allows them to click a button after typing -->
+
+</form>
+</body>
+</html>
